@@ -21,10 +21,10 @@ class CalculationTest {
 
     @Test
     void addNumbers() {
-        System.out.println("this test should run...");
+        // System.out.println("this test should run...");
         //fail("failed");
         Calculation calculation=new Calculation();
-        int expected=1;
+        int expected=2;
         int actual= calculation.addNumbers(1,1);
         Assertions.assertEquals(expected,actual);
     }
