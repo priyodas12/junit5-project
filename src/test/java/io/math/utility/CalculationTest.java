@@ -21,5 +21,6 @@ class CalculationTest {
     @Test
     void addNumbers() {
         System.out.println("this test should run...");
+        //fail("failed");
     }
 }
