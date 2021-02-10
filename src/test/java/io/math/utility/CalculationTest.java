@@ -1,6 +1,7 @@
 package io.math.utility;
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -22,5 +23,9 @@ class CalculationTest {
     void addNumbers() {
         System.out.println("this test should run...");
         //fail("failed");
+        Calculation calculation=new Calculation();
+        int expected=1;
+        int actual= calculation.addNumbers(1,1);
+        Assertions.assertEquals(expected,actual);
     }
 }
