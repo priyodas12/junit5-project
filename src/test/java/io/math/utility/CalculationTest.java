@@ -26,6 +26,6 @@ class CalculationTest {
         Calculation calculation=new Calculation();
         int expected=2;
         int actual= calculation.addNumbers(1,1);
-        Assertions.assertEquals(expected,actual);
+        Assertions.assertEquals(expected,actual,"addition of two numbers");
     }
 }
