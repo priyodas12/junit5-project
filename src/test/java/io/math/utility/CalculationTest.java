@@ -37,4 +37,10 @@ class CalculationTest {
         double actual= calculation.computeArea(2);
         Assertions.assertEquals(expected,actual,"area calculation of circle");
     }
+
+    @Test
+    void devideNumbers() {
+        Calculation calculation=new Calculation();
+        assertThrows(ArithmeticException.class,()->calculation.devideNumbers(1,0),"devision by 0 will throw exception");
+    }
 }

@@ -7,4 +7,7 @@ public class Calculation {
     public double computeArea(double radius){
         return Math.PI*radius*radius;
     }
+    public double devideNumbers(int a,int b){
+        return a/b;
+    }
 }
