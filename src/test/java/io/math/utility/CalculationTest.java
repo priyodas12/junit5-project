@@ -33,8 +33,8 @@ class CalculationTest {
     @Test
     void computeArea() {
         Calculation calculation=new Calculation();
-        double expected=((22/7)*2);
-        double actual= calculation.computeArea(1);
+        double expected=(Math.PI*2*2);
+        double actual= calculation.computeArea(2);
         Assertions.assertEquals(expected,actual,"area calculation of circle");
     }
 }

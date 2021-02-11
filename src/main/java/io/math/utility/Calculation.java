@@ -5,6 +5,6 @@ public class Calculation {
         return a+b;
     }
     public double computeArea(double radius){
-        return (22/7)*radius*radius;
+        return Math.PI*radius*radius;
     }
 }
