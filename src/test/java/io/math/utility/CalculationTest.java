@@ -28,4 +28,13 @@ class CalculationTest {
         int actual= calculation.addNumbers(1,1);
         Assertions.assertEquals(expected,actual,"addition of two numbers");
     }
+
+
+    @Test
+    void computeArea() {
+        Calculation calculation=new Calculation();
+        double expected=((22/7)*2);
+        double actual= calculation.computeArea(1);
+        Assertions.assertEquals(expected,actual,"area calculation of circle");
+    }
 }
