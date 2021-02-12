@@ -39,7 +39,7 @@ class CalculationTest {
     }
 
     @Test
-    void devideNumbers() {
+    void divideNumbers() {
         Calculation calculation=new Calculation();
         assertThrows(ArithmeticException.class,()->calculation.devideNumbers(1,0),"devision by 0 will throw exception");
     }
